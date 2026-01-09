@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #0f172a, #020617);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    background: #1e293b;
+    padding: 25px;
+    width: 360px;
+    border-radius: 12px;
+}
+
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+/* Add button */
+.add-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Task list */
+ul {
+    margin-top: 15px;
+}
+
+/* Each task */
+li {
+    list-style: none;
+    background: #334155;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Delete button */
+.delete-btn {
+    background: transparent;
+    border: none;
+    color: #f87171;
+    font-size: 18px;
+    cursor: pointer;
+}
