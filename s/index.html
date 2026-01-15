@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classy UI | Mini Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(15px);
+      border-radius: 20px;
+      padding: 40px;
+      width: 350px;
+      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+      text-align: center;
+      transition: transform 0.4s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card h1 {
+      font-size: 26px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #dcdcdc;
+      margin-bottom: 30px;
+    }
+
+    .features {
+      margin-bottom: 30px;
+    }
+
+    .features div {
+      background: rgba(255, 255, 255, 0.12);
+      padding: 12px;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      font-size: 14px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 30px;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #ff7a18, #ffb347);
+      color: #000;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: linear-gradient(135deg, #ffb347, #ff7a18);
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 25px;
+      font-size: 12px;
+      color: #bdbdbd;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Classy UI</h1>
+    <p>A clean and elegant HTML & CSS mini project</p>
+
+    <div class="features">
+      <div>✨ Glassmorphism Design</div>
+      <div>🎨 Gradient Background</div>
+      <div>💎 Smooth Hover Effects</div>
+    </div>
+
+    <a href="#" class="btn">Get Started</a>
+
+    <footer>
+      <p>Designed with ❤️ using HTML & CSS</p>
+    </footer>
+  </div>
+</body>
+</html>
